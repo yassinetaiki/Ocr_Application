@@ -1,8 +1,5 @@
 pipeline {
     agent any
-        options {
-        cron('* * * * *') // Déclencheur toutes les minutes pour toute la pipeline
-    }
     stages {
         stage('build') {
             steps {
