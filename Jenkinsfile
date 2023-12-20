@@ -1,10 +1,11 @@
-pipeline {
+hopipeline {
     agent any
     stages {
         stage('build') {
             steps {
                 echo 'build the app..'
                 echo 'ap construit '
+                echo 'changement'
             }
         }
         
