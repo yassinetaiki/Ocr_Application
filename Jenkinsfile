@@ -1,11 +1,10 @@
 pipeline {
     agent any
-    
+        options {
+        cron('* * * * *') // Déclencheur toutes les minutes pour toute la pipeline
+    }
     stages {
         stage('build') {
-            triggers {
-                cron('* * * * *') // Déclencheur toutes les minutes pour cette étape
-            }
             steps {
                 echo 'build the app..'
                 echo 'ap construit '
