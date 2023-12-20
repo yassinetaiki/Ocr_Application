@@ -5,7 +5,7 @@ hopipeline {
             steps {
                 echo 'build the app..'
                 echo 'ap construit '
-                echo 'changement'
+                
             }
         }
         
