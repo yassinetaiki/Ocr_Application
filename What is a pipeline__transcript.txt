@@ -1,0 +1,104 @@
+Hello and welcome to the course.
+My name is Rudy and I'm a full stack developer and devoPS
+engineer.
+And today we're gonna be looking at pipelines in Jenkins
+and more specifically how we can take different approaches
+with pipelines.
+How we can write pipeline scripts and Jenkins using the UI
+in a declarative way and how we can also write Jenkins files
+and have that file committed to source code management
+in the tools such as get help and to have all of our
+pipelines committed as code in order to get the most
+out of this course, it is recommended that you have some kind
+of programming experience at least in one language
+or some kind of scripting experience if you come
+from these systems administration or devoPS world, Well,
+Operations World for example, you will need to have some kind
+of understanding of scripting in its basic form and moreover,
+some idea of the product development lifecycle
+and some capacity if you haven't used the rhyme interface
+before, it's pretty simple.
+You have your cloud desktop environment on the left, which is
+pretty much a carbon copy of the desktop environment
+that I've set up for you for this particular course
+on the left and on the right, you have the video controls
+where you're able to pause, rewind and skip forward
+and backwards through tasks.
+This is extremely helpful, especially if you actually want
+to spend some time to practice in your own sandbox
+environment.
+Feel free to pause the video at any time secondly,
+within the cloud sandbox environment that you've got your
+Windows environment.
+I've provisioned um, Jenkins server here, um installed
+the prerequisites installed, java stalled DACA and installed
+some package management, choco and install maven the bill
+tour. Um this is just so we don't waste time if you actually
+want to know specifically how to actually bootstrap Jenkins
+server from scratch, then have a look at the other course
+that I've produced, which focuses on bootstrapping a Jenkins
+server are really going through the basics of Jenkins itself.
+In this course, we're going to focus a lot just on pipelines
+and how we can use that to automate all of our processes
+and so without further ado what exactly is a pipeline?
+Well, essentially in Jenkins pipeline is nothing more
+than a collection of plug ins that supports our continuous
+delivery procedures from source code management down to end
+user and this is all concerned with the product development
+lifecycle, which starts from developers submitting code
+and having to go through all of those processes
+and the variations of different outcomes or different,
+for example, like a success or a failure.
+What happens after that and also operating across multiple
+different environments.
+There's a lot to manage.
+Um Again, second point, your application code goes
+through a complex web of process is on its way
+to being released as a final product.
+So you have these different environments, testing, staging
+deployment, um, and other environments as well and different
+stages.
+We need to be able to automate, the processes that happen
+at each of these actual stages, which takes occurred
+from the repo level to release level.
+The definition of a pipeline can be written either directly
+as a pipeline script which is written directly in the Ui.
+The Jenkins ui itself very popular way to actually define our
+pipelines and secondly, can also be written as a Jenkins file,
+which would contain some variation of the Ui version of the
+pipeline script essentially is file that's committed usually
+at root level along with the source code and a pipeline can
+be written either is declarative or scripted format.
+This course, we will be focusing on the declarative.
+It's the far more popular and flexible way of writing
+pipeline scripts as opposed to the scripted way the clarity
+of is a new way, a preferred way of writing up pipeline
+scripts.
+Finally, just looking at the benefits of Jenkin file, Jenkins
+file, That process really immerses us in the whole
+infrastructure as code world.
+And the pipeline is considered a part of the project code and
+it's treated as such by being committed along with the
+application code.
+Of course, the pipeline code is part of the project code and
+having it at that level.
+We can again mentioned in the third point here, it could be
+visualized by all members of the team that it concerns um
+whether you're working in development, whether you're working
+in, in in the product team or if you're working in the
+operations team, for example or the testing team.
+everyone can have a look and see to what part of the pipeline
+they're concerned, Which can be very useful.
+And finally, it is considered the best practice to actually
+have the pipeline defined in Jenkins file and committed along
+with source code.
+It's always good to follow conventions and writing it in
+Jenkins file and committing in source code is considered the
+best practice, awesome work.
+So that brings us to the end of the task here and then the
+next task.
+We're gonna go ahead and start writing our first pipeline
+scripts inside the Jenkins Ui and also have a look at how
+we're able to inject environment variables into our code
+itself.
+So I look forward to seeing you there.
